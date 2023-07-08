@@ -1,2 +1,2 @@
-[第一天](first_day.md)
+[第一天](./blogs/first_day.md)
 
