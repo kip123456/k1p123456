@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Number</title>
+    <script type="text/javascript">
+        function generateRandomNumber() {
+            return Math.floor(Math.random() * 100);
+        }
+    </script>
+  </head>
+  <body>
+    <h1>Random Number</h1>
+    <p style="font-size:xx-large;"><button onclick="document.getElementById('randomNumber').innerHTML=generateRandomNumber()">Generate</button><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span id="randomNumber"></span></p>
+  </body>
+</html>
